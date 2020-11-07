@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>tutorialAPI</name>
+    </assembly>
+    <members>
+        <member name="M:tutorialAPI.Controllers.DepartmentController.GetDepartments">
+            <summary>
+            Get list of department
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:tutorialAPI.Controllers.DepartmentController.GetDepartment(System.Int32)">
+            <summary>
+            Get single record of department
+            </summary>
+            <param name="departmentId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:tutorialAPI.Controllers.DepartmentController.CreateDepartment(tutorialAPI.Models.Dtos.DepartmentCreateDto)">
+            <summary>
+            Create Department
+            </summary>
+            <param name="departmentCreateDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:tutorialAPI.Controllers.DepartmentController.UpdateDepartment(System.Int32,tutorialAPI.Models.Department)">
+            <summary>
+            Update Department
+            </summary>
+            <param name="departmentId"></param>
+            <param name="department"></param>
+            <returns></returns>
+        </member>
+        <member name="M:tutorialAPI.Controllers.DepartmentController.DeleteDepartment(System.Int32)">
+            <summary>
+            Delete Department
+            </summary>
+            <param name="departmentId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:tutorialAPI.Controllers.TeacherController.GetTeachers">
+            <summary>
+            Get List of teacher
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:tutorialAPI.Controllers.TeacherController.GetTeacher(System.Int32)">
+            <summary>
+            Get single record of teacher
+            </summary>
+            <param name="teacherId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:tutorialAPI.Controllers.TeacherController.CreateTeacher(tutorialAPI.Models.Dtos.TeacherCreateDto)">
+            <summary>
+            Create Teacher
+            </summary>
+            <param name="teacherCreateDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:tutorialAPI.Controllers.TeacherController.UpdateTeacher(System.Int32,tutorialAPI.Models.Teacher)">
+            <summary>
+            Update Teacher
+            </summary>
+            <param name="teacherId"></param>
+            <param name="teacher"></param>
+            <returns></returns>
+        </member>
+        <member name="M:tutorialAPI.Controllers.TeacherController.DeleteTeacher(System.Int32)">
+            <summary>
+            Delete Teacher
+            </summary>
+            <param name="teacherId"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
